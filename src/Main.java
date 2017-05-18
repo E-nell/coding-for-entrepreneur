@@ -9,11 +9,43 @@ public class Main {
 //        operators.calculate();
 
         //primitive data types
-        PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
+        //PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
 //        dataTypes.explainInteger();
 //        dataTypes.explainDouble();
 //        dataTypes.castNumber();
-          dataTypes.parseData();
-          dataTypes.explainString();
+//          dataTypes.parseData();
+//          dataTypes.explainString();
+        //CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        //collectionFrameworks.explainArray();
+        //collectionFrameworks.explainArrayList();
+        //collectionFrameworks.explainHashSet();
+        //collectionFrameworks.explainHashMap();
+
+        //for-loop
+        //ForLoop forLoop =new ForLoop();
+        //forLoop.explainForLoop();
+        //forLoop.explainForLoopWithArrayList();
+        //forLoop.explainWhile();
+
+
+        //methods
+       // Methods methods = new Methods();
+        //methods.testMethodOne();
+        //methods.testMethodTwo("Two");
+        //methods.testMethodTwo("Zero");
+        //System.out.println(methods.testMethodThree());
+        //System.out.println(methods.testMethodFour(3, 4));
+
+        //classes
+        Classes classes = new Classes(1, 2);
+        System.out.println(classes.sum());
+        System.out.println(classes.multiply());
+        Classes classes2 = new Classes(2, 3);
+        System.out.println(classes2.sum());
+        System.out.println(classes2.multiply());
+
+
+
+
     }
 }
